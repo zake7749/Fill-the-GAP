@@ -44,3 +44,17 @@ Finally, here is a simple performacne report of my models:
 # Note
 
 The code is still under cleaning. There still exists some dirty methods for the trade-off between efficiency and scalability. For notebook stage 0.1 ~ 0.6, it's not necessary to use a for loop to dump features from each layer. The offical API supports to dump all of them at the same time.
+
+# Citation
+
+If you find this repository is useful for your research, please cite our [paper](https://www.aclweb.org/anthology/W19-3815.pdf):
+
+```
+@inproceedings{yang2019fill,
+  title={Fill the GAP: Exploiting BERT for Pronoun Resolution},
+  author={Yang, Kai-Chou and Niven, Timothy and Chou, Tzu Hsuan and Kao, Hung-Yu},
+  booktitle={Proceedings of the First Workshop on Gender Bias in Natural Language Processing},
+  pages={102--106},
+  year={2019}
+}
+```
